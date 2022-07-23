@@ -1,0 +1,30 @@
+body {
+  background-color: pink;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.menu-left {
+  width: 50%;
+}
+.menu-item {
+  display: flex;
+  flex-direction: row;
+}
+.menu-item-price {
+  color: blue;
+  font-size: 19px;
+}
+.menu-item-name {
+  color: blue;
+  font-size: 19px;
+}
+.menu-right {
+  width: 50%;
+}
